@@ -12,7 +12,7 @@ for i in range(1, r):
     subgrid = duplicate(grid)
     subgrid.model = Grid(s*4, s*4)
     subgrid.color = color.color(0,0,.4,lerp(.8,0,t))
-    model = Entity(model="Block01", collider="mesh", texture="white_cube", position=(-100, 0, 0))
+   
 
     EditorCamera()
 
